@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li style="float: right;"><a href="index.html"><span
+                            class="material-symbols-outlined">computer</span>Loïc Viremouneix</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Présentation</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-content">
+            <h1>LOIC VIREMOUNEIX</h1>
+            <p>Développeur Web Chez <a href="https://e-catalyst.fr">E-Catalyst</a> avec <a
+                    href="https://openclassrooms.com">Openclassrooms</a></p>
+        </div>
+    </header>
+
+    <!-- Présentation -->
+    <div class="presentation">
+        <div class="timeline">
+            <div class="container left">
+              <div class="content">
+                <h2>2020</h2>
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>2021</h2>
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content">
+                <h2>2023</h2>
+                <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+              </div>
+            </div>
+          </div>
+          <h2 id="soon">Soon</h2>
+    </div>
+
+    <!-- Skills -->
+    <div class="skills">
+        <div class="title">
+            <h1>My skills</h1>
+            <p>My skills are based on <span>my own opinion</span> until today in the field of web development</p>
+        </div>
+        <div onclick="Show('communication')" class="languages">
+            <h1>Teamwork</h1>
+            <div class="progress">
+                <div class="skill">
+                    <label>Communication</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>Problem-solving</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>Respectfulness</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>Organizational</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="communication" class="description">
+                <h1>Description</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deserunt provident distinctio ullam
+                    consequuntur laudantium accusantium nulla voluptate modi. Eius dolore quas beatae laudantium aperiam
+                    necessitatibus numquam id ea provident.</p>
+            </div>
+        </div>
+        <div onclick="Show('front_end')" class="languages">
+            <h1>Front End</h1>
+            <div class="progress">
+                <div class="skill">
+                    <label>Design</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>JavaScript</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>Framework</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>HTML/CSS</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>Responsive</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="front_end" class="description">
+                <h1>Description</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deserunt provident distinctio ullam
+                    consequuntur laudantium accusantium nulla voluptate modi. Eius dolore quas beatae laudantium aperiam
+                    necessitatibus numquam id ea provident.</p>
+            </div>
+        </div>
+        <div class="languages">
+            <h1 onclick="Show('back_end')">Back End</h1>
+            <div class="progress">
+                <div class="skill">
+                    <label>Database</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>Knowledge of APIs</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>Familiarity with Servers</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <label>PHP/Symfony</label>
+                    <div class="bar">
+                        <div class="complete" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="back_end" class="description">
+                <h1>Description</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde deserunt provident distinctio ullam
+                    consequuntur laudantium accusantium nulla voluptate modi. Eius dolore quas beatae laudantium aperiam
+                    necessitatibus numquam id ea provident.</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function Show(e) {
+            var el = document.getElementById(e);
+            if(el.style.display == "block") {
+                el.style.display = "none";
+            } else {
+                el.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
