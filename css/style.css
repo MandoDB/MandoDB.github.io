@@ -257,6 +257,7 @@ nav li a:hover {
     justify-content: center;
     width: 100%;
     background-color: #415a77;
+    flex-direction: row;
 }
 
 .skills .title {
@@ -330,4 +331,37 @@ nav li a:hover {
 .description p {
     color: white;
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .skills {
+        flex-direction: column;
+    }
+
+    .skills .languages {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .header-content h1 {
+        font-size: 2rem;
+        width: auto;
+    }
+
+    .header-content p {
+        font-size: 1rem;
+    }
+
+    .header-content {
+        top: 10%;
+    }
+
+    header {
+        height: 40vh;
+    }
+
+    nav ul {
+        display: none;
+    }
+
 }
